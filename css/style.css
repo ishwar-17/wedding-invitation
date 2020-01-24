@@ -65,6 +65,25 @@ body{
 		font-size: 38px;
 	}
 }
+@media (min-width: 360px){
+	.enagement-overlay{
+		width:330px;
+		top:33%;
+	}
+	.invitation-message h1{
+		font-size: 42px;
+	}
+}
+
+@media (min-width: 375px){
+	.enagement-overlay{
+		width:345px;
+		top:33%;
+	}
+	.invitation-message h1{
+		font-size: 44px;
+	}
+}
 
 @media (min-width: 400px){
 	.enagement-overlay{
