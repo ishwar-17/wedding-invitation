@@ -40,7 +40,8 @@ body{
 	text-align: center;
 }
 .invitation-message{
-	margin:30px 0 ;
+	text-align: center;
+	margin:30px 0;
 }
 .invitation-message-address h5{
 	font-size: 20px;
@@ -54,6 +55,21 @@ body{
 	
 	text-align: center;
 	text-decoration: underline;
+}
+.invitation-message a{
+	color:#fff;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.invitation-message span{
+	color:#fff;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
 }
 
 @media (min-width: 320px){
