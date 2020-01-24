@@ -24,7 +24,6 @@
 						      	<div class="invitation-message">
 						      		<h1>Wedding Invitation</h1>
 									<h5>You are cordially invited to celebrate <br/> the wedding of</h5>
-									<span><<</span> <a class="play-music">wedding music</a> <span>>></span>
 								</div>
 						    </div>
 
@@ -53,15 +52,16 @@
 		<script type="text/javascript">
 			var audio = document.createElement("AUDIO")
 			document.body.appendChild(audio);
-			audio.src = "img/marriage-songs.mpeg";
+			audio.src = "img/marriage-songs.mpeg"
+
+
+			document.body.addEventListener("mouseover", function () {
+			    audio.play()
+			})
 
 			$(document).ready(function(){
 				$('.carousel').carousel({
 				  	interval: 1000 * 2
-				});
-
-				$('.play-music').click(function(){
-					audio.play();
 				});
 			});
 		</script> 
