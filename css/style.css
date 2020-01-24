@@ -51,25 +51,34 @@ body{
 .invitation-message h1{
 	font-family: 'Great Vibes', cursive;
 	margin:0 0 15px;
-	font-size:50px;
+	
 	text-align: center;
 	text-decoration: underline;
 }
 
 @media (min-width: 320px){
 	.enagement-overlay{
-		width:350px;
+		width:290px;
+		top:33%;
+	}
+	.invitation-message h1{
+		font-size: 38px;
 	}
 }
 
 @media (min-width: 400px){
 	.enagement-overlay{
-		width:462px;
+		width:380px;
 	}
 }
 
 @media (min-width:768px){
 	.enagement-overlay{
 		width:650px;
+		top: 36%;
 	}
+	.invitation-message h1{
+		font-size:50px;
+	}
+
 }
