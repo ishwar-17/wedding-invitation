@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enagement Invitation</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="enagement-container">
+				<div class="enagement-overlay">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators" style="display: none;">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+						    <div class="item active">
+						      	<div class="invitation-message">
+						      		<h1>Wedding Invitation</h1>
+									<h5>You are cordially invited to celebrate <br/> the wedding of</h5>
+								</div>
+						    </div>
+
+						    <div class="item">
+						      	<div class="enagement-name">
+									<h3>Supriya</h3>
+									<p>weds</p>
+									<h3>Shreenivas</h3>
+								</div>
+						    </div>
+
+						    <div class="item">
+						      	<div class="invitation-message-address">
+									<h5>On Friday afternoon <br/> January the 31<sup>st</sup> 2020 <br/> at 12 clock 6 minutes <br/> Patil Garden, Khanapur Road, Goa Cross, Karambal <br/> Khanapur Dist. Belgaum</h5>
+								</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+		<!-- ===========Js Section Start============== -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			var audio = document.createElement("AUDIO")
+			document.body.appendChild(audio);
+			audio.src = "img/marriage-songs.mpeg"
+
+
+			document.body.addEventListener("mouseover", function () {
+			    audio.play()
+			})
+
+			$(document).ready(function(){
+				$('.carousel').carousel({
+				  	interval: 1000 * 2
+				});
+			});
+		</script> 
+	</body>
+</html>
